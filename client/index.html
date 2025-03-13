@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1 class="game-title">Succient</h1>
+        <canvas id="gameCanvas"></canvas>
+        <div id="startScreen">
+            <p>YOUR HIGH SCORE: <span id="highScore">0</span></p>
+            <p class="start-text">CLICK ANY KEY TO START</p>
+        </div>
+        <div id="gameOverScreen">
+            <p>GAME OVER</p>
+            <p>Your Score: <span id="finalScore">0</span></p>
+            <p>Press Any Key to Restart</p>
+        </div>
+        <div id="scoreDisplay">Score: <span id="score">0</span></div>
+    </div>
+    <script type="module" src="wasm_loader.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
