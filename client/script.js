@@ -129,3 +129,4 @@ document.addEventListener("keydown", (event) => {
 });
 
 updateGame();
+#js писал не я
