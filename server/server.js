@@ -11,7 +11,7 @@ app.use(express.static("../client"));
 
 app.post("/save-score", (req, res) => {
     let { score } = req.body;
-    console.log(`🎯 Сохранён результат: ${score}`);
+    console.log(`Сохранён: ${score}`);
     res.send({ success: true });
 });
 
